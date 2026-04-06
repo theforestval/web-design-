@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Geologica:slnt,wght,CRSV,SHRP@-12..0,100..900,0..1,0..100&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+body {
+font-family: 'Open sans', sans-serif;
+margin: 0;
+background-color: #C8CBE6;
+}
+
+.nav {
+display: flex;
+height: auto;
+min-height: 50px;
+background-color: #8789A9;
+justify-content: center;
+align-items: center;
+font-size: 18px;
+gap: 132px;
+font-weight: bold;
+}
+
+footer {
+display: flex;
+height: auto;
+flex-direction: column;
+min-height: 110px;
+font-size: 18px;
+justify-content: center;
+align-items: center;
+color: #3D3F65;
+background-color: #F3F3F3;
+gap: 10px;
+}
+
+footer p {
+  margin: 0;
+}
+
+.nav a {
+  color: #252743;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: #E6E7F5;
+}
+
+.nav a:active {
+  color: #C8CBE6;
+}
+
+:root {
+--nav-bg: #E6E7F5; 
+--card-header-bg: #E6E7F5;
+--text-color: #3D3F65;
+}
+
+.faq-container {
+max-width: 970px;
+margin: 50px auto;
+}
+
+.faq-card {
+background-color: #F3F3F3;
+border: none;
+margin-bottom: 30px;
+}
+
+.faq-header {
+background-color: var(--card-header-bg);
+color: var(--text-color);
+padding: 15px;
+text-align: center;
+font-weight: bold;
+font-size: 26px;
+text-transform: uppercase;
+}
+
+.faq-body {
+padding: 20px 40px;
+text-align: center;
+font-size: 18px;
+line-height: 2;
+}
+  

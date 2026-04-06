@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Geologica:slnt,wght,CRSV,SHRP@-12..0,100..900,0..1,0..100&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+body {
+font-family: 'Open sans', sans-serif;
+margin: 0;
+background-color: #F3F3F3;
+}
+
+.nav {
+display: flex;
+height: auto;
+min-height: 50px;
+background-color: #8789A9;
+justify-content: center;
+align-items: center;
+font-size: 18px;
+gap: 132px;
+font-weight: bold;
+}
+
+footer {
+display: flex;
+height: auto;
+flex-direction: column;
+min-height: 110px;
+font-size: 18px;
+justify-content: center;
+align-items: center;
+color: #3D3F65;
+gap: 10px;
+}
+
+footer p {
+  margin: 0;
+}
+
+.nav a {
+  color: #252743;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: #E6E7F5;
+}
+
+.nav a:active {
+  color: #C8CBE6;
+}
+
+.content {
+  max-width: 970px;
+  margin: 0 auto;
+}
+
+.main-title-row {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;  
+    gap: 30px;            
+    margin: 50px;  
+    flex-wrap: wrap;       
+}
+
+.main-title {
+    font-size: 26px;
+    font-weight: bold;
+    color: #3D3F65;
+    margin: 0;              
+    line-height: 1.2;      
+    white-space: nowrap;    
+    text-decoration: none;
+}
+
+.category {
+  margin-bottom: 50px;
+}
+
+.category-title {
+  background: #C8CBE6;
+  color: #3D3F65;
+  text-align: center;
+  padding: 12px 0;
+  font-size: 26px;
+  margin-bottom: 50px;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px 40px;
+}
+
+.card {
+  text-align: left;
+}
+
+.card img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  display: block;
+  margin-bottom: 10px;
+  background: #eee;
+}
+
+.card a {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 6px;
+  color: #000;
+}
+
+.card p {
+  font-size: 14px;
+  color: #000;
+  line-height: 1.5;
+  margin-bottom: 6px;
+}
+
+.card span {
+  font-size: 14px;
+  color: #000;
+}
+
+max-width: 900px {
+  .products-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+max-width: 600px {
+  .topbar {
+    flex-direction: column;
+    gap: 10px;
+}
+
+  .products-grid {
+    grid-template-columns: 1fr;
+  }
+
+html {
+  scroll-behavior: smooth;
+}
